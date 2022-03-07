@@ -66,21 +66,21 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "目录索引"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签索引"
       }
     },
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "li",
+    "author": "402",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2020"
   },
   "markdown": {
     "lineNumbers": true
