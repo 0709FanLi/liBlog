@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 402的Blog
-tagline: 记录所学
+tagline: 记录所学,并逐步完善
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
