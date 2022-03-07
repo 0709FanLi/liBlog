@@ -1,3 +1,5 @@
+const sidebar = require("./siderbar.js");
+
 module.exports = {
   "title": "li.blog",
   "description": "learn",
@@ -54,14 +56,7 @@ module.exports = {
       //   ]
       // }
     ],
-    "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
-    },
+    "sidebar": sidebar,
     "type": "blog",
     "blogConfig": {
       "category": {
