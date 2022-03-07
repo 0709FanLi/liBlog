@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 402的Blog
+tagline: 记录所学
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
