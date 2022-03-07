@@ -1,5 +1,6 @@
 node_modules/
+public/
 yarn.lock
 yarn.error
 node_modules
-public/
+/public
