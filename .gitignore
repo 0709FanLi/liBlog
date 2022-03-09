@@ -3,4 +3,7 @@ public/
 yarn.lock
 yarn.error
 node_modules
+public/
 /public
+.vuepress/public/
+.vuepress/public

@@ -1,6 +1,7 @@
 const { createSideBarConfig } = require('./util')
 const JAVASCRIPT_PATH = '/blogs/javascript'
 const BROWSER_PATH = '/blogs/browser'
+const VUE_PATH = '/blogs/vue'
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
@@ -13,5 +14,8 @@ module.exports = {
     createSideBarConfig('安全', BROWSER_PATH + '/safe'),
     createSideBarConfig('渲染', BROWSER_PATH + '/render'),
     createSideBarConfig('兼容性', BROWSER_PATH + '/compatible'),
+  ],
+  [VUE_PATH]: [
+    createSideBarConfig('vue', VUE_PATH + '/vue2.x'),
   ],
 }
