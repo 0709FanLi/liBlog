@@ -2,6 +2,7 @@ const { createSideBarConfig } = require('./util')
 const JAVASCRIPT_PATH = '/blogs/javascript'
 const BROWSER_PATH = '/blogs/browser'
 const VUE_PATH = '/blogs/vue'
+const CSS_PATH = '/blogs/css'
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
@@ -17,5 +18,8 @@ module.exports = {
   ],
   [VUE_PATH]: [
     createSideBarConfig('vue', VUE_PATH + '/vue2.x'),
+  ],
+  [CSS_PATH]: [
+    createSideBarConfig('css', CSS_PATH),
   ],
 }
